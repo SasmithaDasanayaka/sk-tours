@@ -1,0 +1,125 @@
+/* Global Reset & Base Styles */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+:root {
+  --color-primary: #1a365d;
+  --color-accent: #f6ad55;
+  --color-accent-dark: #ed8936;
+  --color-dark: #111827;
+  --color-text: #2d3748;
+  --color-text-light: #718096;
+  --color-bg: #ffffff;
+  --color-bg-alt: #f8fafc;
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  line-height: 1.2;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+input,
+textarea,
+select,
+.copyable {
+  cursor: text;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+a,
+a *,
+button,
+button *,
+[role="button"],
+[role="button"] *,
+label[for],
+select,
+summary,
+[onclick],
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+input[type="checkbox"],
+input[type="radio"],
+.dest-card,
+.dest-card *,
+.navbar__cta,
+.navbar__toggle,
+.navbar__brand,
+.navbar__brand *,
+.footer__link-btn,
+.contact__item,
+.contact__item *,
+.contact__office,
+.contact__office *,
+.brochure__carousel-btn,
+.brochure__carousel-dot,
+.brochure__back,
+.brochure__cta-btn,
+.hero__scroll,
+.back-to-top {
+  cursor: pointer;
+}
+
+/* Package cards use default cursor; buttons inside still get pointer from a/button rules above */
+.card,
+.card * {
+  cursor: default;
+}
+.card a,
+.card a *,
+.card button,
+.card button * {
+  cursor: pointer;
+}
