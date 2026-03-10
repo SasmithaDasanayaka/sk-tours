@@ -1,0 +1,461 @@
+/* ===== Brochure Not Found ===== */
+.brochure-not-found {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.brochure__back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #ed8936;
+  font-weight: 600;
+  text-decoration: none;
+  transition: gap 0.2s ease;
+}
+
+.brochure__back-link:hover {
+  gap: 0.75rem;
+}
+
+/* ===== Hero ===== */
+.brochure__hero {
+  position: relative;
+  min-height: 70vh;
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.brochure__hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(17, 24, 39, 0.3) 0%,
+    rgba(17, 24, 39, 0.85) 100%
+  );
+  pointer-events: none;
+}
+
+.brochure__hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  padding: 6.5rem 2rem 4rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.brochure__back {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  cursor: pointer;
+  padding: 0.55rem 1.3rem;
+  border-radius: 50px;
+  font-family: inherit;
+  backdrop-filter: blur(8px);
+  letter-spacing: 0.3px;
+  z-index: 10;
+}
+
+.brochure__back:hover {
+  color: #f6ad55;
+  gap: 0.85rem;
+  background: rgba(246, 173, 85, 0.15);
+  border-color: rgba(246, 173, 85, 0.5);
+  box-shadow: 0 4px 15px rgba(246, 173, 85, 0.2);
+  transform: translateX(-3px);
+}
+
+.brochure__hero-subtitle {
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #f6ad55;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.brochure__hero-title {
+  font-family: "Playfair Display", serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 1.25rem;
+  line-height: 1.1;
+}
+
+.brochure__hero-desc {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.8;
+  max-width: 700px;
+}
+
+/* ===== Section Header ===== */
+.brochure__places {
+  padding: 5rem 0 6rem;
+  background: #f8fafc;
+}
+
+.brochure__places-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.brochure__section-header {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.brochure__section-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ed8936;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.brochure__section-title {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a202c;
+}
+
+.brochure__section-title span {
+  color: #ed8936;
+}
+
+/* ===== Places Grid ===== */
+.brochure__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
+}
+
+/* First card is featured — spans two columns */
+.brochure__card--featured {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.brochure__card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.brochure__card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+}
+
+.brochure__card-img-wrapper {
+  position: relative;
+  overflow: hidden;
+  height: 280px;
+}
+
+.brochure__card--featured .brochure__card-img-wrapper {
+  height: 100%;
+  min-height: 380px;
+  flex: 1;
+}
+
+.brochure__card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.brochure__card:hover .brochure__card-img {
+  transform: scale(1.06);
+}
+
+.brochure__card-tag {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: rgba(17, 24, 39, 0.75);
+  backdrop-filter: blur(8px);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.3rem 0.85rem;
+  border-radius: 50px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+/* ===== Image Carousel ===== */
+.brochure__carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.brochure__carousel-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+}
+
+.brochure__carousel-img--active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.brochure__carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(4px);
+  color: #fff;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 0.75rem;
+  opacity: 0;
+  transition: opacity 0.3s ease, background 0.2s ease;
+}
+
+.brochure__card:hover .brochure__carousel-btn {
+  opacity: 1;
+}
+
+.brochure__carousel-btn:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.brochure__carousel-btn--prev {
+  left: 10px;
+}
+
+.brochure__carousel-btn--next {
+  right: 10px;
+}
+
+.brochure__carousel-dots {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
+  display: flex;
+  gap: 8px;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(6px);
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+.brochure__carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+}
+
+.brochure__carousel-dot--active {
+  background: #f6ad55;
+  border-color: #f6ad55;
+  transform: scale(1.3);
+}
+
+.brochure__card-body {
+  padding: 1.25rem 1.5rem 1.5rem;
+}
+
+.brochure__card--featured .brochure__card-body {
+  padding: 1.5rem 1.75rem 2rem;
+}
+
+.brochure__card-name {
+  font-family: "Playfair Display", serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 0.5rem;
+}
+
+.brochure__card--featured .brochure__card-name {
+  font-size: 1.5rem;
+}
+
+.brochure__card-desc {
+  font-size: 0.9rem;
+  color: #718096;
+  line-height: 1.65;
+}
+
+.brochure__card--featured .brochure__card-desc {
+  font-size: 0.95rem;
+}
+
+/* ===== Bottom CTA ===== */
+.brochure__cta {
+  background: linear-gradient(135deg, #1a365d 0%, #2a4a7f 100%);
+  padding: 4.5rem 1.5rem;
+  text-align: center;
+}
+
+.brochure__cta h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.75rem;
+}
+
+.brochure__cta p {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 2rem;
+}
+
+.brochure__cta-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.brochure__cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 2rem;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.brochure__cta-btn--wa {
+  background: #25d366;
+  color: #fff;
+}
+
+.brochure__cta-btn--wa:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+}
+
+.brochure__cta-btn--outline {
+  background: transparent;
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.brochure__cta-btn--outline:hover {
+  border-color: #f6ad55;
+  color: #f6ad55;
+  transform: translateY(-2px);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 900px) {
+  .brochure__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .brochure__card--featured {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+
+  .brochure__card--featured .brochure__card-img-wrapper {
+    min-height: 260px;
+  }
+
+  .brochure__hero-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .brochure__hero {
+    min-height: 60vh;
+  }
+
+  .brochure__hero-content {
+    padding: 2rem 1.25rem 3rem;
+  }
+
+  .brochure__hero-title {
+    font-size: 2rem;
+  }
+
+  .brochure__hero-desc {
+    font-size: 0.95rem;
+  }
+
+  .brochure__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .brochure__card--featured {
+    grid-column: span 1;
+  }
+
+  .brochure__section-title {
+    font-size: 1.8rem;
+  }
+
+  .brochure__places {
+    padding: 3.5rem 0 4rem;
+  }
+
+  .brochure__cta h2 {
+    font-size: 1.7rem;
+  }
+}

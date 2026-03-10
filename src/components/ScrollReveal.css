@@ -1,0 +1,105 @@
+/* ── Scroll Reveal Animations ── */
+
+/* Base state: hidden */
+.sr {
+  will-change: transform, opacity;
+  transition-property: transform, opacity;
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ── Fade Up ── */
+.sr--fade-up {
+  opacity: 0;
+  transform: translateY(60px);
+}
+.sr--fade-up.sr--visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Fade Down ── */
+.sr--fade-down {
+  opacity: 0;
+  transform: translateY(-60px);
+}
+.sr--fade-down.sr--visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Fade Left (slides in from the left) ── */
+.sr--fade-left {
+  opacity: 0;
+  transform: translateX(-80px);
+}
+.sr--fade-left.sr--visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* ── Fade Right (slides in from the right) ── */
+.sr--fade-right {
+  opacity: 0;
+  transform: translateX(80px);
+}
+.sr--fade-right.sr--visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* ── Zoom In ── */
+.sr--zoom-in {
+  opacity: 0;
+  transform: scale(0.85);
+}
+.sr--zoom-in.sr--visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* ── Zoom Out ── */
+.sr--zoom-out {
+  opacity: 0;
+  transform: scale(1.15);
+}
+.sr--zoom-out.sr--visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* ── Fade (simple opacity) ── */
+.sr--fade {
+  opacity: 0;
+}
+.sr--fade.sr--visible {
+  opacity: 1;
+}
+
+/* ── Flip Up ── */
+.sr--flip-up {
+  opacity: 0;
+  transform: perspective(600px) rotateX(15deg) translateY(40px);
+}
+.sr--flip-up.sr--visible {
+  opacity: 1;
+  transform: perspective(600px) rotateX(0deg) translateY(0);
+}
+
+/* ── Slide Up (no opacity change) ── */
+.sr--slide-up {
+  transform: translateY(100px);
+  opacity: 0;
+}
+.sr--slide-up.sr--visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* ── Reduce motion for accessibility ── */
+@media (prefers-reduced-motion: reduce) {
+  .sr {
+    transition-duration: 0ms !important;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+}
