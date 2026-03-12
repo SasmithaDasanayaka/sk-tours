@@ -5,6 +5,7 @@ import {
   FaMapMarkerAlt,
   FaWhatsapp,
   FaPaperPlane,
+  FaFacebookF,
 } from "react-icons/fa";
 import ScrollReveal from "./ScrollReveal";
 import "./Contact.css";
@@ -78,7 +79,7 @@ const Contact = () => {
             </a>
 
             <a
-              href="mailto:sasmithadasanayaka96@gmail.com"
+              href="mailto:thaitours@skventures.lk"
               className="contact__item"
             >
               <div className="contact__icon">
@@ -87,8 +88,23 @@ const Contact = () => {
               <div>
                 <span className="contact__label">Email</span>
                 <span className="contact__value copyable">
-                  sasmithadasanayaka96@gmail.com
+                  thaitours@skventures.lk
                 </span>
+              </div>
+            </a>
+
+            <a
+              href="https://web.facebook.com/SkThaiTours/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact__item"
+            >
+              <div className="contact__icon contact__icon--facebook">
+                <FaFacebookF />
+              </div>
+              <div>
+                <span className="contact__label">Facebook</span>
+                <span className="contact__value">SK Thai Tours</span>
               </div>
             </a>
           </div>
@@ -109,18 +125,6 @@ const Contact = () => {
                 </div>
               </a>
               <a
-                href="https://www.google.com/maps/search/29B+Malamulla+West+Panadura+Sri+Lanka"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="contact__office"
-              >
-                <FaMapMarkerAlt className="contact__office-pin" />
-                <div>
-                  <span className="contact__office-name">Panadura Office</span>
-                  <span className="contact__office-addr">29B, Malamulla West, Panadura, Colombo, Sri Lanka</span>
-                </div>
-              </a>
-              <a
                 href="https://www.google.com/maps/search/No.40+Kurunegala+Road+Kuliyapitiya+Sri+Lanka"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -130,6 +134,18 @@ const Contact = () => {
                 <div>
                   <span className="contact__office-name">Kuliyapitiya Office</span>
                   <span className="contact__office-addr">No.40, Kurunegala Road, Kuliyapitiya, Kurunegala, Sri Lanka</span>
+                </div>
+              </a>
+              <a
+                href="https://www.google.com/maps/search/29B+Malamulla+West+Panadura+Sri+Lanka"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact__office"
+              >
+                <FaMapMarkerAlt className="contact__office-pin" />
+                <div>
+                  <span className="contact__office-name">Panadura Office</span>
+                  <span className="contact__office-addr">29B, Malamulla West, Panadura, Colombo, Sri Lanka</span>
                 </div>
               </a>
             </div>

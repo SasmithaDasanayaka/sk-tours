@@ -4,6 +4,9 @@
   background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
   position: relative;
   overflow: hidden;
+  height: 950px;
+  display: flex;
+  align-items: center;
 }
 
 .promotions::before {
@@ -385,6 +388,7 @@
 @media (max-width: 768px) {
   .promotions {
     padding: 4rem 0;
+    height: 800px;
   }
 
   .promotions__title {
@@ -436,6 +440,10 @@
 }
 
 @media (max-width: 480px) {
+  .promotions {
+    height: 900px;
+  }
+
   .promo-card__image-side {
     min-height: 180px;
     max-height: 200px;

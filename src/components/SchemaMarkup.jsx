@@ -11,13 +11,15 @@ export const OrganizationSchema = () => {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'TravelAgency',
-    name: 'SK Tours',
+    name: 'SK Thai Tours',
     description: 'Thailand tour packages and travel services',
-    url: 'https://SasmithaDasanayaka.github.io/sk-tours',
-    logo: 'https://SasmithaDasanayaka.github.io/sk-tours/logo.png',
+    url: 'https://thaitours.skventures.lk',
+    logo: 'https://thaitours.skventures.lk/logo.png',
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'Customer Service',
+      telephone: '+94-77-545-8878',
+      email: 'thaitours@skventures.lk',
       availableLanguage: ['English'],
     },
     areaServed: {
@@ -26,7 +28,7 @@ export const OrganizationSchema = () => {
     },
     sameAs: [
       // Add your social media links here
-      'https://www.facebook.com/share/18Y7n2UpFE/?mibextid=wwXIfr',
+      'https://web.facebook.com/SkThaiTours/',
       'https://wa.me/94775458878',
     ],
   };
@@ -117,13 +119,13 @@ export const WebsiteSchema = () => {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'SK Tours',
-    url: 'https://SasmithaDasanayaka.github.io/sk-tours',
+    name: 'SK Thai Tours',
+    url: 'https://thaitours.skventures.lk',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: 'https://SasmithaDasanayaka.github.io/sk-tours?q={search_term_string}',
+        urlTemplate: 'https://thaitours.skventures.lk?q={search_term_string}',
       },
       'query-input': 'required name=search_term_string',
     },

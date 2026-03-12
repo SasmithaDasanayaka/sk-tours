@@ -79,6 +79,11 @@
   color: #276749;
 }
 
+.contact__icon--facebook {
+  background: linear-gradient(135deg, #dbe4ff, #bac8ff);
+  color: #1877f2;
+}
+
 .contact__label {
   display: block;
   font-size: 0.8rem;

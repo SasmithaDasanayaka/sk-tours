@@ -1,6 +1,6 @@
-# SK Tours — Travel Website
+# SK Thai Tours — Travel Website
 
-A modern, responsive travel website for **SK Tours**, built with React and Vite. Showcases tour destinations across Thailand with interactive brochures, image carousels, and WhatsApp integration.
+A modern, responsive travel website for **SK Thai Tours**, built with React and Vite. Showcases tour destinations across Thailand with interactive brochures, image carousels, and WhatsApp integration.
 
 ## Features
 
