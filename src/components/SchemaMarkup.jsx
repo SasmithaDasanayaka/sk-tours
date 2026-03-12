@@ -26,8 +26,8 @@ export const OrganizationSchema = () => {
     },
     sameAs: [
       // Add your social media links here
-      'https://www.facebook.com/sktours',
-      'https://www.instagram.com/sktours',
+      'https://www.facebook.com/share/18Y7n2UpFE/?mibextid=wwXIfr',
+      'https://wa.me/94775458878',
     ],
   };
 
