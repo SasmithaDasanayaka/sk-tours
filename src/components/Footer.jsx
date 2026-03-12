@@ -142,16 +142,16 @@ const Footer = () => {
               className="footer__office-item"
             >
               <FaMapMarkerAlt className="footer__contact-icon" />
-              <span>Panadura — 29B, Malamulla West, Panadura</span>
+              <span>Panadura — 29B, Malamulla West, Panadura, Colombo, Sri Lanka</span>
             </a>
             <a
-              href="https://www.google.com/maps/search/No.43+Kurunegala+Road+Kuliyapitiya+Sri+Lanka"
+              href="https://www.google.com/maps/search/No.40+Kurunegala+Road+Kuliyapitiya+Sri+Lanka"
               target="_blank"
               rel="noopener noreferrer"
               className="footer__office-item"
             >
               <FaMapMarkerAlt className="footer__contact-icon" />
-              <span>Kuliyapitiya — No.43, Kurunegala Road</span>
+              <span>Kuliyapitiya — No.40, Kurunegala Road, Kuliyapitiya, Kurunegala, Sri Lanka</span>
             </a>
           </div>
         </div>

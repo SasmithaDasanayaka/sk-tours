@@ -121,7 +121,7 @@ const Contact = () => {
                 </div>
               </a>
               <a
-                href="https://www.google.com/maps/search/No.43+Kurunegala+Road+Kuliyapitiya+Sri+Lanka"
+                href="https://www.google.com/maps/search/No.40+Kurunegala+Road+Kuliyapitiya+Sri+Lanka"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="contact__office"
@@ -129,7 +129,7 @@ const Contact = () => {
                 <FaMapMarkerAlt className="contact__office-pin" />
                 <div>
                   <span className="contact__office-name">Kuliyapitiya Office</span>
-                  <span className="contact__office-addr">No.43, Kurunegala Road, Kuliyapitiya, Kurunegala, Sri Lanka</span>
+                  <span className="contact__office-addr">No.40, Kurunegala Road, Kuliyapitiya, Kurunegala, Sri Lanka</span>
                 </div>
               </a>
             </div>
