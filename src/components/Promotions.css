@@ -123,6 +123,17 @@
   right: -24px;
 }
 
+/* Prevent arrows from causing horizontal overflow on tablets and smaller */
+@media (max-width: 1000px) {
+  .promotions__arrow--left {
+    left: 8px;
+  }
+
+  .promotions__arrow--right {
+    right: 8px;
+  }
+}
+
 /* ===== Dots ===== */
 .promotions__dots {
   display: flex;
@@ -372,12 +383,6 @@
 
 /* ===== Responsive ===== */
 @media (max-width: 900px) {
-  .promotions__arrow--left {
-    left: 8px;
-  }
-  .promotions__arrow--right {
-    right: 8px;
-  }
   .promotions__arrow {
     width: 40px;
     height: 40px;
