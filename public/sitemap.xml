@@ -2,30 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Home Page -->
   <url>
-    <loc>https://SasmithaDasanayaka.github.io/sk-tours/</loc>
-    <lastmod>2026-03-07</lastmod>
+    <loc>https://thaitours.skventures.lk/</loc>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <!-- Brochure Pages -->
   <url>
-    <loc>https://SasmithaDasanayaka.github.io/sk-tours/brochure/explore-bangkok</loc>
-    <lastmod>2026-03-07</lastmod>
+    <loc>https://thaitours.skventures.lk/brochure/explore-bangkok</loc>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://SasmithaDasanayaka.github.io/sk-tours/brochure/explore-pattaya</loc>
-    <lastmod>2026-03-07</lastmod>
+    <loc>https://thaitours.skventures.lk/brochure/explore-pattaya</loc>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://SasmithaDasanayaka.github.io/sk-tours/brochure/explore-phuket</loc>
-    <lastmod>2026-03-07</lastmod>
+    <loc>https://thaitours.skventures.lk/brochure/explore-phuket</loc>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

@@ -1,4 +1,4 @@
-# SK Tours - Cover Photo Design Guide
+# SK Thai Tours - Cover Photo Design Guide
 
 ## 📐 Platform Specifications
 
@@ -27,7 +27,7 @@
 │                                                               │
 │  [Thailand Collage Background: Bangkok/Pattaya/Phuket]       │
 │                                                               │
-│              SK TOURS                                         │
+│              SK THAI TOURS                                     │
 │    Your Gateway to Thailand Adventures                        │
 │                                                               │
 │  🏙️ Bangkok  |  🏖️ Pattaya  |  🌊 Phuket                    │
@@ -38,7 +38,7 @@
 ```
 
 **Text Elements:**
-- Main Title: "SK TOURS" (Bold, Large - 60-80px)
+- Main Title: "SK THAI TOURS" (Bold, Large - 60-80px)
 - Subtitle: "Your Gateway to Thailand Adventures" (Medium - 30-40px)
 - Destinations: Icons + text (24-30px)
 - Features: Icons + benefits (18-22px)
@@ -70,7 +70,7 @@
 ```
 
 **Text Elements:**
-- Company Name: "SK TOURS" (Bold, centered - 48-60px)
+- Company Name: "SK THAI TOURS" (Bold, centered - 48-60px)
 - Icons: Thai-themed emojis or symbols
 - Optional: Small tagline "Thailand Experts" (18-24px)
 
@@ -138,7 +138,7 @@ Combine 3 images side-by-side:
    - OR use Canva's "Travel" templates
    - Apply gradient overlay (dark at 40% opacity)
 3. **Add text layers**:
-   - "SK TOURS" (Montserrat Bold/Poppins Bold, 72px, white)
+   - "SK THAI TOURS" (Montserrat Bold/Poppins Bold, 72px, white)
    - "Your Gateway to Thailand Adventures" (Montserrat Medium, 36px)
    - Add icon row: 🏙️ Bangkok | 🏖️ Pattaya | 🌊 Phuket
    - Bottom features: 📞 24/7 • ✨ Best Prices • 🎯 Custom Packages
@@ -213,7 +213,7 @@ Combine 3 images side-by-side:
 1. **Quick & Easy** (5 minutes each):
    - Use Canva with Thailand travel templates
    - Customize colors to blue/teal/gold
-   - Add "SK TOURS" text
+   - Add "SK THAI TOURS" text
    - Download and upload
 
 2. **Professional** (30 minutes total):

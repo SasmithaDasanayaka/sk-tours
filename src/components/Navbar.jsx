@@ -44,7 +44,7 @@ const Navbar = () => {
       <div className="navbar__container">
         <button className="navbar__brand" onClick={goHome}>
           <Logo size={68} />
-          <span className="navbar__name">SK Tours</span>
+          <span className="navbar__name">SK Thai Tours</span>
         </button>
 
         <button

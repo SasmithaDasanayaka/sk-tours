@@ -39,7 +39,7 @@ const Footer = () => {
         <div className="footer__brand">
           <div className="footer__logo">
             <Logo size={60} />
-            <span className="footer__logo-text">SK Tours</span>
+            <span className="footer__logo-text">SK Thai Tours</span>
           </div>
           <p className="footer__tagline">
             Your trusted partner for unforgettable Thailand experiences. Creating
@@ -49,7 +49,7 @@ const Footer = () => {
             <a href="https://wa.me/94775458878" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
               <FaWhatsapp />
             </a>
-            <a href="https://www.facebook.com/share/18Y7n2UpFE/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <a href="https://web.facebook.com/SkThaiTours/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
               <FaFacebookF />
             </a>
             {/* <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
@@ -120,8 +120,8 @@ const Footer = () => {
             </li>
             <li>
               <FaEnvelope className="footer__contact-icon" />
-              <a href="mailto:sasmithadasanayaka96@gmail.com" className="copyable">
-                sasmithadasanayaka96@gmail.com
+              <a href="mailto:thaitours@skventures.lk" className="copyable">
+                thaitours@skventures.lk
               </a>
             </li>
           </ul>
@@ -136,15 +136,6 @@ const Footer = () => {
               <span>Bangkok — No.34, Market, Bangkok</span>
             </a>
             <a
-              href="https://www.google.com/maps/search/29B+Malamulla+West+Panadura+Sri+Lanka"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="footer__office-item"
-            >
-              <FaMapMarkerAlt className="footer__contact-icon" />
-              <span>Panadura — 29B, Malamulla West, Panadura, Colombo, Sri Lanka</span>
-            </a>
-            <a
               href="https://www.google.com/maps/search/No.40+Kurunegala+Road+Kuliyapitiya+Sri+Lanka"
               target="_blank"
               rel="noopener noreferrer"
@@ -152,6 +143,15 @@ const Footer = () => {
             >
               <FaMapMarkerAlt className="footer__contact-icon" />
               <span>Kuliyapitiya — No.40, Kurunegala Road, Kuliyapitiya, Kurunegala, Sri Lanka</span>
+            </a>
+            <a
+              href="https://www.google.com/maps/search/29B+Malamulla+West+Panadura+Sri+Lanka"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer__office-item"
+            >
+              <FaMapMarkerAlt className="footer__contact-icon" />
+              <span>Panadura — 29B, Malamulla West, Panadura, Colombo, Sri Lanka</span>
             </a>
           </div>
         </div>
@@ -179,7 +179,7 @@ const Footer = () => {
       </div> */}
 
       <div className="footer__bottom">
-        <p>© 2026 SK Tours. All rights reserved.</p>
+        <p>© 2026 SK Thai Tours. All rights reserved.</p>
       </div>
     </footer>
   );

@@ -158,7 +158,7 @@ const brochures = {
           "https://res.cloudinary.com/desenbguq/image/upload/v1772440705/Gemini_Generated_Image_q3lporq3lporq3lp_hs1rvi.png",
           "https://res.cloudinary.com/desenbguq/image/upload/v1772440837/Gemini_Generated_Image_orfxueorfxueorfx_sg7wx8.png",
           "https://res.cloudinary.com/desenbguq/image/upload/v1772441641/Gemini_Generated_Image_wfjgjgwfjgjgwfjg_giis66.png",
-          "https://res.cloudinary.com/desenbguq/image/upload/v1772442383/young-boys-girl-riding-banana-boat-sea-pattaya-thailand-funny-playful-summer-vacation-128055254_t51y1i.jpg",
+          "https://res.cloudinary.com/desenbguq/image/upload/v1773579964/water-activites-4_vn9gxo.png",
         ],
         description:
           "Make the most of your Koh Larn visit with an exciting range of water activities. Soar above the ocean on a parasailing adventure, walk along the seabed on an unforgettable undersea walk, race across the waves on a jet ski, enjoy the thrill of a banana boat ride with friends, or dive into the crystal-clear waters for a snorkeling session among colorful tropical fish and coral reefs.",

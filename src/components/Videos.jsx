@@ -15,7 +15,7 @@ const videos = [
   {
     id: 2,
     title: "Experience Our Thailand Packages",
-    description: "Discover the exclusive experiences included in our tour packages. See firsthand the activities, destinations, and memories that make SK Tours special.",
+    description: "Discover the exclusive experiences included in our tour packages. See firsthand the activities, destinations, and memories that make SK Thai Tours special.",
     thumbnail: "https://res.cloudinary.com/desenbguq/image/upload/v1772455023/06749fe2dfee011eb0c6b48edba49ef29e3ffc0d-1600x1066_mawins.jpg",
     videoUrl: "https://res.cloudinary.com/desenbguq/video/upload/v1772620744/Thailand_Tour_Video_Creation_Request_1_n64hob.mp4",
     location: "Tour Packages",

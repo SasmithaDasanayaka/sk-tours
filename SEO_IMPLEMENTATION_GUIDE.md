@@ -1,4 +1,4 @@
-# SEO Implementation Guide - SK Tours
+# SEO Implementation Guide - SK Thai Tours
 
 ## ✅ What Has Been Implemented
 
@@ -44,12 +44,12 @@ Created `SchemaMarkup.jsx` with multiple schema types:
 
 1. **Verify Your Website**
    - Go to [Google Search Console](https://search.google.com/search-console)
-   - Add your property: `https://SasmithaDasanayaka.github.io/sk-tours`
+   - Add your property: `https://thaitours.skventures.lk`
    - Verify ownership (HTML file upload or meta tag)
 
 2. **Submit Your Sitemap**
    - In Search Console, go to "Sitemaps"
-   - Submit: `https://SasmithaDasanayaka.github.io/sk-tours/sitemap.xml`
+   - Submit: `https://thaitours.skventures.lk/sitemap.xml`
 
 3. **Request Indexing**
    - Use "URL Inspection" tool
@@ -178,11 +178,11 @@ function NewPage() {
   return (
     <>
       <SEO
-        title="Your Page Title | SK Tours"
+        title="Your Page Title | SK Thai Tours"
         description="Page description here"
         keywords="keyword1, keyword2, keyword3"
         image="https://your-image-url.jpg"
-        url="https://SasmithaDasanayaka.github.io/sk-tours/new-page"
+        url="https://thaitours.skventures.lk/new-page"
       />
       {/* Your page content */}
     </>
@@ -204,7 +204,7 @@ import { TourPackageSchema } from "./components/SchemaMarkup";
 
 ### Short Term (1-3 months)
 - Website indexed by Google
-- Appearing in search results for brand name "SK Tours"
+- Appearing in search results for brand name "SK Thai Tours"
 - Basic analytics data collection
 
 ### Medium Term (3-6 months)

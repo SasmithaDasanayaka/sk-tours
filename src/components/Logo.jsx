@@ -5,7 +5,7 @@ const Logo = ({ size = 44 }) => (
     viewBox="0 0 120 120"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    aria-label="SK Tours Logo"
+    aria-label="SK Thai Tours Logo"
   >
     {/* Background circle */}
     <circle cx="60" cy="60" r="58" fill="#1a365d" stroke="#f6ad55" strokeWidth="3" />
@@ -66,7 +66,7 @@ const Logo = ({ size = 44 }) => (
       textAnchor="middle"
       letterSpacing="1"
     >
-      Tours
+      Thai Tours
     </text>
     {/* Decorative underline swash */}
     <path
@@ -77,9 +77,6 @@ const Logo = ({ size = 44 }) => (
       opacity="0.5"
       strokeLinecap="round"
     />
-
-    {/* Underline accent */}
-    <rect x="32" y="80" width="56" height="2.5" rx="1.25" fill="#f6ad55" opacity="0.7" />
   </svg>
 );
 
