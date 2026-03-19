@@ -29,14 +29,12 @@ const brochures = {
         tag: "Must Visit",
       },
       {
-        name: "Art in Paradise: 3D Museum",
-        images: [
-          "https://res.cloudinary.com/desenbguq/image/upload/v1772174222/img-20200129-124347-largejpg_ejml3y.jpg",
-          "https://res.cloudinary.com/desenbguq/image/upload/v1772174396/visitors-interact-3d-painting-art-paradise-museum-550nw-9878328e_ckz7i6.jpg",
-        ],
+        name: "Wat Saket - Golden Mount",
+        image: 
+          "https://res.cloudinary.com/desenbguq/image/upload/v1773590513/Wat-Saket-The-Golden-Mount-860x573_nrufpz.webp",
         description:
-          "Step into Bangkok's incredible 3D art museum where you become part of the artwork! Featuring over 150 interactive paintings and installations across multiple themed zones, perfect for fun, creative photos and an unforgettable experience.",
-        tag: "Fun Activity",
+          "Climb 318 golden steps to Bangkok's sacred Golden Mount, where the gleaming golden chedi houses Buddha relics and offers breathtaking 360-degree views of the city. A spiritual haven where visitors make wishes by tying sacred red cloth ribbons, ringing golden bells for good fortune, lighting incense sticks, and hanging small prayer bells around the temple. This peaceful sanctuary is especially magical during the annual temple fair in November when thousands gather to make merit and seek blessings.",
+        tag: "Sacred Temple",
       },
       {
         name: "Wat Arun Traditional Costume Photography",
@@ -66,7 +64,7 @@ const brochures = {
         tag: "Adventure",
       },
       {
-        name: "Safari World Bangkok",
+        name: "Safari World and Marine Park Bangkok",
         images: [
           "https://res.cloudinary.com/desenbguq/image/upload/v1772178397/a5eec8082afc39dcf67857d147206d63_otls0i.jpg",
           "https://res.cloudinary.com/desenbguq/image/upload/v1772188036/20608310-b097-4997-9ad2-e8b3b5e433b2-1200_mteho9.webp",
@@ -97,14 +95,14 @@ const brochures = {
         tag: "Adventure",
       },
       {
-        name: "Dinner Cruise with Dinner Buffet",
+        name: "Buffet Dinner Cruise",
         images: [
           "https://res.cloudinary.com/desenbguq/image/upload/v1772290595/caption_ts4cij.jpg",
           "https://res.cloudinary.com/desenbguq/image/upload/v1772290754/8a_trbre4.jpg",
           "https://res.cloudinary.com/desenbguq/image/upload/v1772291002/75399d2f-523d-42c9-8d66-3133449208d2_i4yhvg.jpg",
         ],
         description:
-          "Glide along the Chao Phraya River as Bangkok's illuminated temples and skyline create a magical backdrop. Enjoy a lavish international dinner buffet with live music and entertainment on a beautifully decorated cruise ship for a truly unforgettable evening.",
+          "Glide along the Chao Phraya River as Bangkok's illuminated temples and skyline create a magical backdrop. Enjoy a lavish international buffet dinner with live music and entertainment on a beautifully decorated cruise ship for a truly unforgettable evening.",
         tag: "Dining",
       },
       {

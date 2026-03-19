@@ -10,7 +10,7 @@ const destinations = [
     tagline: "The City of Angels",
     image:
       "https://res.cloudinary.com/desenbguq/image/upload/v1772620492/photo-1508009603885-50cf7c579365_ury1y0.jpg",
-    highlights: ["Grand Palace", "Floating Markets", "Dinner Cruise", "Dream World"],
+    highlights: ["Grand Palace", "Floating Markets", "Buffet Dinner Cruise", "Dream World"],
   },
   {
     name: "Pattaya",

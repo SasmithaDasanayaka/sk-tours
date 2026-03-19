@@ -8,10 +8,11 @@ const Services = () => {
       title: "Bangkok Branch 24/7",
       description:
         "Our Bangkok office operates round the clock to serve you anytime. Visit us for instant bookings, travel assistance, and personalized service whenever you need.",
+      tag: "24 Hours Srervice",
     },
     {
       icon: "✈️",
-      title: "Thailand Tour Packages",
+      title: "Private Thailand Tour Packages",
       description:
         "Expertly curated tour packages covering Bangkok, Pattaya, and Phuket with the best attractions, activities, and experiences at unbeatable prices.",
     },
@@ -81,6 +82,9 @@ const Services = () => {
               delay={index * 100}
             >
               <div className="service-card">
+                {service.tag && (
+                  <div className="service-card__tag">{service.tag}</div>
+                )}
                 <div className="service-card__icon">{service.icon}</div>
                 <h3 className="service-card__title">{service.title}</h3>
                 <p className="service-card__description">{service.description}</p>

@@ -127,13 +127,13 @@ const Footer = () => {
           </ul>
           <div className="footer__offices-list">
             <a
-              href="https://www.google.com/maps/search/No.34+Market+Bangkok"
+              href="https://www.google.com/maps/search/645%2F61+-+1+Soi+Petchaburi+13%2F1+Thanon+Phayathai+Ratchathewi+Bangkok+10400+Thailand"
               target="_blank"
               rel="noopener noreferrer"
               className="footer__office-item"
             >
               <FaMapMarkerAlt className="footer__contact-icon" />
-              <span>Bangkok — No.34, Market, Bangkok</span>
+              <span>Bangkok — 645/61 - 1 Soi Petchaburi 13/1 Thanon, Phayathai Ratchathewi, Bangkok 10400, Thailand</span>
             </a>
             <a
               href="https://www.google.com/maps/search/No.40+Kurunegala+Road+Kuliyapitiya+Sri+Lanka"
