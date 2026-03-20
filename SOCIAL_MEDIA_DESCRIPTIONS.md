@@ -1,10 +1,10 @@
-# Social Media Descriptions for SK Thai Tours
+# Social Media Descriptions for FlyMo Tours by SK Ventures
 
 ## WhatsApp Business Description
 **(256 character limit)**
 
 ```
-🌴 SK Thai Tours | Your Thailand Travel Expert
+🌴 FlyMo Tours by SK Ventures | Your Thailand Travel Expert
 ✈️ Bangkok • Pattaya • Phuket Packages
 🏢 24/7 Bangkok Branch
 🎯 Custom Itineraries | Hotel Bookings
@@ -14,7 +14,7 @@
 
 **Alternative (Shorter):**
 ```
-🌴 SK Thai Tours - Thailand Tour Specialist
+🌴 FlyMo Tours - Thailand Tour Specialist
 ✈️ Bangkok • Pattaya • Phuket
 🏢 24/7 Service | Best Prices 
 📞 Chat now for custom packages!
@@ -31,11 +31,11 @@ Your trusted Thailand travel partner. Offering custom tour packages to Bangkok, 
 
 ### Long Description (About Section)
 ```
-Welcome to SK Thai Tours — Your Gateway to Unforgettable Thailand Adventures! 🌴✈️
+Welcome to FlyMo Tours by SK Ventures — Your Gateway to Unforgettable Thailand Adventures! 🌴✈️
 
-SK Thai Tours is your premier Thailand travel specialist, offering expertly curated tour packages and comprehensive travel solutions for the ultimate Thai experience.
+FlyMo Tours is your premier Thailand travel specialist, offering expertly curated tour packages and comprehensive travel solutions for the ultimate Thai experience.
 
-🏆 WHY CHOOSE SK THAI TOURS?
+🏆 WHY CHOOSE FLYMO TOURS?
 ✅ 24/7 Bangkok Branch Office — Always here when you need us
 ✅ Best Price Guarantee — Competitive rates, no hidden costs
 ✅ Complimentary Thai Foot Massage — Relaxation on us!
@@ -61,7 +61,7 @@ Start planning your dream Thailand holiday today! Contact us for personalized pa
 💬 Message us anytime for quick responses
 🎯 Your satisfaction is our priority
 
-Let SK Thai Tours turn your Thailand dreams into reality! 🇹🇭✨
+Let FlyMo Tours turn your Thailand dreams into reality! 🇹🇭✨
 ```
 
 ---
@@ -70,7 +70,7 @@ Let SK Thai Tours turn your Thailand dreams into reality! 🇹🇭✨
 
 ### Instagram Bio (150 characters)
 ```
-🌴 SK Thai Tours | Thailand Travel Experts
+🌴 FlyMo Tours | Thailand Travel Experts
 ✈️ Bangkok • Pattaya • Phuket
 🏢 24/7 Service | Best Prices
 📲 DM for custom packages
@@ -78,7 +78,7 @@ Let SK Thai Tours turn your Thailand dreams into reality! 🇹🇭✨
 
 ### Twitter/X Bio (160 characters)
 ```
-🌴 SK Thai Tours - Your Thailand Travel Partner | Custom Packages for Bangkok, Pattaya & Phuket | 24/7 Bangkok Branch | Best Price Guarantee ✈️🇹🇭
+🌴 FlyMo Tours by SK Ventures - Your Thailand Travel Partner | Custom Packages for Bangkok, Pattaya & Phuket | 24/7 Bangkok Branch | Best Price Guarantee ✈️🇹🇭
 ```
 
 ---
@@ -91,7 +91,7 @@ Let SK Thai Tours turn your Thailand dreams into reality! 🇹🇭✨
 4. **Website**: Add your website URL
 5. **Greeting Message**: 
    ```
-   Hello! 👋 Welcome to SK Thai Tours! 
+   Hello! 👋 Welcome to FlyMo Tours! 
    
    How can we help you plan your perfect Thailand adventure today? 
    
@@ -101,7 +101,7 @@ Let SK Thai Tours turn your Thailand dreams into reality! 🇹🇭✨
 
 6. **Away Message** (if needed):
    ```
-   Thank you for contacting SK Thai Tours! ⏰
+   Thank you for contacting FlyMo Tours! ⏰
    
    We're currently away but will respond shortly. 
    Our Bangkok branch is open 24/7 for urgent inquiries.

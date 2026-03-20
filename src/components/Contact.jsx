@@ -79,7 +79,7 @@ const Contact = () => {
             </a>
 
             <a
-              href="mailto:thaitours@skventures.lk"
+              href="mailto:flymotours@skventures.lk"
               className="contact__item"
             >
               <div className="contact__icon">
@@ -88,13 +88,13 @@ const Contact = () => {
               <div>
                 <span className="contact__label">Email</span>
                 <span className="contact__value copyable">
-                  thaitours@skventures.lk
+                  flymotours@skventures.lk
                 </span>
               </div>
             </a>
 
             <a
-              href="https://web.facebook.com/SkThaiTours/"
+              href="https://web.facebook.com/flymotours/"
               target="_blank"
               rel="noopener noreferrer"
               className="contact__item"
@@ -104,7 +104,7 @@ const Contact = () => {
               </div>
               <div>
                 <span className="contact__label">Facebook</span>
-                <span className="contact__value">SK Thai Tours</span>
+                <span className="contact__value">FlyMo Tours</span>
               </div>
             </a>
           </div>
@@ -113,7 +113,7 @@ const Contact = () => {
             <span className="contact__label">Our Offices</span>
             <div className="contact__offices-grid">
               <a
-                href="https://www.google.com/maps/search/No.34+Market+Bangkok"
+                href="https://www.google.com/maps/search/645%2F61+-+1+Soi+Petchaburi+13%2F1+Thanon+Phayathai+Ratchathewi+Bangkok+10400+Thailand"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="contact__office"
@@ -121,7 +121,7 @@ const Contact = () => {
                 <FaMapMarkerAlt className="contact__office-pin" />
                 <div>
                   <span className="contact__office-name">Bangkok Office</span>
-                  <span className="contact__office-addr">No.34, Market, Bangkok</span>
+                  <span className="contact__office-addr">645/61 - 1 Soi Petchaburi 13/1 Thanon, Phayathai Ratchathewi, Bangkok 10400, Thailand</span>
                 </div>
               </a>
               <a

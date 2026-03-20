@@ -22,12 +22,15 @@ const PackageCard = ({ pkg }) => {
         <div className="card__details">
           <h4 className="card__details-heading">Package Includes</h4>
           <ul className="card__list">
-            {pkg.highlights.map((item, idx) => (
-              <li key={idx}>
-                <FaCheck className="card__check" />
-                <span>{item}</span>
-              </li>
-            ))}
+            {pkg.highlights.map((item, idx) => {
+              const isSubPoint = item.trim().startsWith("•");
+              return (
+                <li key={idx} className={isSubPoint ? "card__list-subitem" : ""}>
+                  {!isSubPoint && <FaCheck className="card__check" />}
+                  <span>{item}</span>
+                </li>
+              );
+            })}
           </ul>
         </div>
 

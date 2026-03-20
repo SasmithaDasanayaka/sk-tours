@@ -9,14 +9,14 @@ const promotions = [
     title: "Bangkok Explorer Deal",
     tagline: "Limited Time Offer",
     description:
-      "Experience the best of Bangkok with our exclusive 4N/5D package. Includes accommodation, all transfers, daily breakfast, Dream World, Safari World & a luxury dinner cruise.",
+      "Experience the best of Bangkok with our exclusive 4N/5D package. Includes accommodation, all transfers, daily buffet breakfast, Dream World, Safari World and Marine Park & a luxury buffet dinner cruise.",
     image:
       "https://images.unsplash.com/photo-1563492065599-3520f775eeed?w=900&q=80",
     badge: "HOT DEAL",
     badgeIcon: "fire",
-    highlights: ["Flight tickets","4 Nights Stay", "All Transfers", "Daily Breakfast", "Dream World + Safari World"],
+    highlights: ["Flight tickets","4 Nights Stay", "All Transfers", "Daily Buffet Breakfast", "Dream World + Safari World and Marine Park"],
     originalPrice: "LKR 235,900",
-    offerPrice: "LKR 205,000",
+    offerPrice: "LKR 198,000",
     discount: "25% OFF",
     validUntil: "March 31, 2026",
     ctaText: "Grab This Deal",
@@ -31,7 +31,7 @@ const promotions = [
   //     "https://images.unsplash.com/photo-1504214208698-ea1916a2195a?w=900&q=80",
   //   badge: "BEST SELLER",
   //   badgeIcon: "star",
-  //   highlights: ["5 Nights Stay", "Bangkok + Pattaya", "Coral Island Tour", "Dinner Cruise"],
+  //   highlights: ["5 Nights Stay", "Bangkok + Pattaya", "Coral Island Tour", "Buffet Dinner Cruise"],
   //   originalPrice: "LKR 249,900",
   //   offerPrice: "LKR 189,900",
   //   discount: "25% OFF",
@@ -43,46 +43,46 @@ const promotions = [
   //   title: "Bangkok City Saver",
   //   tagline: "Budget Friendly",
   //   description:
-  //     "Perfect for first-timers! Enjoy 3N/4D in Bangkok with comfortable accommodation, airport transfers, daily breakfast, city temple tour & a dinner cruise experience.",
+  //     "Perfect for first-timers! Enjoy 3N/4D in Bangkok with comfortable accommodation, airport transfers, daily buffet breakfast, city temple tour & a buffet dinner cruise experience.",
   //   image:
   //     "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=900&q=80",
   //   badge: "SAVE BIG",
   //   badgeIcon: "percent",
-  //   highlights: ["3 Nights Stay", "Airport Transfers", "Temple Tour", "Dinner Cruise"],
+  //   highlights: ["3 Nights Stay", "Airport Transfers", "Temple Tour", "Buffet Dinner Cruise"],
   //   originalPrice: "LKR 139,900",
   //   offerPrice: "LKR 99,900",
   //   discount: "29% OFF",
   //   validUntil: "April 15, 2026",
   //   ctaText: "Claim Offer",
   // },
-  {
-    id: 4,
-    title: "Pattaya Beach Getaway",
-    tagline: "New Arrival",
-    description:
-      "Add a Pattaya extension to your Bangkok trip! 2N/3D beach paradise with Coral Island snorkeling, Nong Nooch Tropical Garden visit & vibrant Walking Street nightlife.",
-    image:
-      "https://res.cloudinary.com/desenbguq/image/upload/v1772455023/06749fe2dfee011eb0c6b48edba49ef29e3ffc0d-1600x1066_mawins.jpg",
-    badge: "NEW",
-    badgeIcon: "plane",
-    highlights: ["2 Nights Pattaya", "Coral Island", "Nong Nooch Garden", "All Transfers"],
-    originalPrice: "LKR 109,900",
-    offerPrice: "LKR 79,900",
-    discount: "27% OFF",
-    validUntil: "April 30, 2026",
-    ctaText: "Get This Deal",
-  },
+  // {
+  //   id: 4,
+  //   title: "Pattaya Beach Getaway",
+  //   tagline: "New Arrival",
+  //   description:
+  //     "Add a Pattaya extension to your Bangkok trip! 2N/3D beach paradise with Coral Island snorkeling, Nong Nooch Tropical Garden visit & vibrant Walking Street nightlife.",
+  //   image:
+  //     "https://res.cloudinary.com/desenbguq/image/upload/v1772455023/06749fe2dfee011eb0c6b48edba49ef29e3ffc0d-1600x1066_mawins.jpg",
+  //   badge: "NEW",
+  //   badgeIcon: "plane",
+  //   highlights: ["2 Nights Pattaya", "Coral Island", "Nong Nooch Garden", "All Transfers"],
+  //   originalPrice: "LKR 109,900",
+  //   offerPrice: "LKR 79,900",
+  //   discount: "27% OFF",
+  //   validUntil: "April 30, 2026",
+  //   ctaText: "Get This Deal",
+  // },
   {
     id: 5,
     title: "Honeymoon Paradise",
     tagline: "Romance Special",
     description:
-      "Celebrate your love story in paradise! 5N/6D romantic escape with luxury stays, candlelit dinner cruise, couples spa, beach sunset experience & private island tour. Create unforgettable memories together.",
+      "Celebrate your love story in paradise! 5N/6D romantic escape with luxury stays, candlelit buffet dinner cruise, couples spa, beach sunset experience & private island tour. Create unforgettable memories together.",
     image:
       "https://res.cloudinary.com/desenbguq/image/upload/v1772937960/photo-1519046904884-53103b34b206_i9lrcv.jpg",
     badge: "ROMANCE",
     badgeIcon: "heart",
-    highlights: ["Luxury Hotels", "Couples Spa Session", "Private Dinner Cruise", "Champagne & Flowers", "Honeymoon Suite"],
+    highlights: ["Luxury Hotels", "Couples Spa Session", "Private Buffet Dinner Cruise", "Champagne & Flowers", "Honeymoon Suite"],
     originalPrice: "LKR 349,900",
     offerPrice: "LKR 279,900",
     discount: "20% OFF",
@@ -134,7 +134,7 @@ const Promotions = () => {
         <ScrollReveal animation="fade-up">
           <p className="promotions__subtitle">Special Offers</p>
           <h2 className="promotions__title">
-            SK Thai Tours <span>Promotions</span>
+            FlyMo Tours <span>Promotions</span>
           </h2>
           <p className="promotions__description">
             Don&apos;t miss out on our exclusive travel deals! Limited-time offers on

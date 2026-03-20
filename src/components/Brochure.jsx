@@ -100,18 +100,18 @@ const Brochure = () => {
   );
 
   const breadcrumbItems = [
-    { name: "Home", url: "https://thaitours.skventures.lk/" },
-    { name: data.title, url: `https://thaitours.skventures.lk/brochure/${slug}` },
+    { name: "Home", url: "https://flymotours.skventures.lk/" },
+    { name: data.title, url: `https://flymotours.skventures.lk/brochure/${slug}` },
   ];
 
   return (
     <div className="brochure">
       <SEO
-        title={`${data.title} - ${data.subtitle} | SK Thai Tours`}
+        title={`${data.title} - ${data.subtitle} | FlyMo Tours`}
         description={data.description}
-        keywords={`${data.title}, Thailand travel, ${data.title} tour, Thailand attractions, SK Thai Tours`}
+        keywords={`${data.title}, Thailand travel, ${data.title} tour, Thailand attractions, FlyMo Tours`}
         image={data.heroImage}
-        url={`https://thaitours.skventures.lk/brochure/${slug}`}
+        url={`https://flymotours.skventures.lk/brochure/${slug}`}
         type="article"
       />
       <BreadcrumbSchema items={breadcrumbItems} />

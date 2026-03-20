@@ -39,7 +39,7 @@ const Footer = () => {
         <div className="footer__brand">
           <div className="footer__logo">
             <Logo size={60} />
-            <span className="footer__logo-text">SK Thai Tours</span>
+            <span className="footer__logo-text">FlyMo Tours</span>
           </div>
           <p className="footer__tagline">
             Your trusted partner for unforgettable Thailand experiences. Creating
@@ -49,7 +49,7 @@ const Footer = () => {
             <a href="https://wa.me/94775458878" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
               <FaWhatsapp />
             </a>
-            <a href="https://web.facebook.com/SkThaiTours/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <a href="https://web.facebook.com/flymotours/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
               <FaFacebookF />
             </a>
             {/* <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
@@ -120,20 +120,20 @@ const Footer = () => {
             </li>
             <li>
               <FaEnvelope className="footer__contact-icon" />
-              <a href="mailto:thaitours@skventures.lk" className="copyable">
-                thaitours@skventures.lk
+              <a href="mailto:flymotours@skventures.lk" className="copyable">
+                flymotours@skventures.lk
               </a>
             </li>
           </ul>
           <div className="footer__offices-list">
             <a
-              href="https://www.google.com/maps/search/No.34+Market+Bangkok"
+              href="https://www.google.com/maps/search/645%2F61+-+1+Soi+Petchaburi+13%2F1+Thanon+Phayathai+Ratchathewi+Bangkok+10400+Thailand"
               target="_blank"
               rel="noopener noreferrer"
               className="footer__office-item"
             >
               <FaMapMarkerAlt className="footer__contact-icon" />
-              <span>Bangkok — No.34, Market, Bangkok</span>
+              <span>Bangkok — 645/61 - 1 Soi Petchaburi 13/1 Thanon, Phayathai Ratchathewi, Bangkok 10400, Thailand</span>
             </a>
             <a
               href="https://www.google.com/maps/search/No.40+Kurunegala+Road+Kuliyapitiya+Sri+Lanka"
@@ -179,7 +179,7 @@ const Footer = () => {
       </div> */}
 
       <div className="footer__bottom">
-        <p>© 2026 SK Thai Tours. All rights reserved.</p>
+        <p>© 2026 FlyMo Tours by SK Ventures. All rights reserved.</p>
       </div>
     </footer>
   );

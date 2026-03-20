@@ -1,4 +1,4 @@
-# SK Thai Tours - Cover Photo Design Guide
+# FlyMo Tours by SK Ventures - Cover Photo Design Guide
 
 ## 📐 Platform Specifications
 
@@ -27,7 +27,7 @@
 │                                                               │
 │  [Thailand Collage Background: Bangkok/Pattaya/Phuket]       │
 │                                                               │
-│              SK THAI TOURS                                     │
+│              FLYMO TOURS                                      │
 │    Your Gateway to Thailand Adventures                        │
 │                                                               │
 │  🏙️ Bangkok  |  🏖️ Pattaya  |  🌊 Phuket                    │
@@ -38,8 +38,8 @@
 ```
 
 **Text Elements:**
-- Main Title: "SK THAI TOURS" (Bold, Large - 60-80px)
-- Subtitle: "Your Gateway to Thailand Adventures" (Medium - 30-40px)
+- Main Title: "FLYMO TOURS" (Bold, Large - 60-80px)
+- Subtitle: "Your Gateway to Thailand Adventures" or "by SK Ventures" (Medium - 30-40px)
 - Destinations: Icons + text (24-30px)
 - Features: Icons + benefits (18-22px)
 
@@ -61,7 +61,7 @@
 │    Landmark     │
 │    Background]  │
 │                 │
-│      SK         │
+│     FlyMo       │
 │     TOURS       │
 │                 │
 │   🌴 ✈️ 🏖️     │
@@ -70,9 +70,9 @@
 ```
 
 **Text Elements:**
-- Company Name: "SK THAI TOURS" (Bold, centered - 48-60px)
+- Company Name: "FLYMO TOURS" (Bold, centered - 48-60px)
+- Subtitle: "by SK Ventures" (smaller, 16-20px)
 - Icons: Thai-themed emojis or symbols
-- Optional: Small tagline "Thailand Experts" (18-24px)
 
 **Color Scheme:**
 - Use same colors as Facebook cover for brand consistency
@@ -138,7 +138,8 @@ Combine 3 images side-by-side:
    - OR use Canva's "Travel" templates
    - Apply gradient overlay (dark at 40% opacity)
 3. **Add text layers**:
-   - "SK THAI TOURS" (Montserrat Bold/Poppins Bold, 72px, white)
+   - "FLYMO TOURS" (Montserrat Bold/Poppins Bold, 72px, white)
+   - "by SK Ventures" (Montserrat Medium, 28px, gold)
    - "Your Gateway to Thailand Adventures" (Montserrat Medium, 36px)
    - Add icon row: 🏙️ Bangkok | 🏖️ Pattaya | 🌊 Phuket
    - Bottom features: 📞 24/7 • ✨ Best Prices • 🎯 Custom Packages
@@ -213,7 +214,7 @@ Combine 3 images side-by-side:
 1. **Quick & Easy** (5 minutes each):
    - Use Canva with Thailand travel templates
    - Customize colors to blue/teal/gold
-   - Add "SK THAI TOURS" text
+   - Add "FLYMO TOURS" text
    - Download and upload
 
 2. **Professional** (30 minutes total):

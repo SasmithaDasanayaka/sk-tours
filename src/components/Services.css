@@ -66,12 +66,28 @@
   flex-direction: column;
   min-height: 280px;
   height: 100%;
+  position: relative;
 }
 
 .service-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 12px 24px rgba(237, 137, 54, 0.15);
   border-color: #ed8936;
+}
+
+.service-card__tag {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: linear-gradient(135deg, #ed8936, #f6ad55);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.4rem 0.8rem;
+  border-radius: 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(237, 137, 54, 0.3);
 }
 
 .service-card__icon {

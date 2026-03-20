@@ -46,7 +46,7 @@ const Hero = () => {
         <ScrollReveal animation="fade-down" duration={800}>
           <div className="hero__badge">
             <span className="hero__badge-dot" />
-            Welcome to SK Thai Tours
+            Welcome to FlyMo Tours
           </div>
         </ScrollReveal>
         <ScrollReveal animation="fade-up" delay={200} duration={900}>
