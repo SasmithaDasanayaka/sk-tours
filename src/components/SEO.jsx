@@ -11,14 +11,14 @@ import PropTypes from 'prop-types';
  * @param {string} type - Open Graph type (website, article, etc.)
  */
 const SEO = ({
-  title = 'SK Thai Tours | Thailand Tour Packages',
-  description = 'Explore Thailand with SK Thai Tours - Your trusted travel partner. Discover affordable Bangkok, Pattaya, Phuket tour packages with all-inclusive services.',
-  keywords = 'Thailand tours, Bangkok packages, Pattaya tours, Phuket holidays, Thailand travel, tour packages, SK Thai Tours',
-  image = 'https://res.cloudinary.com/desenbguq/image/upload/v1772620492/photo-1508009603885-50cf7c579365_ury1y0.jpg',
-  url = 'https://thaitours.skventures.lk',
+  title = 'FlyMo Tours by SK Ventures | Thailand Tour Packages',
+  description = 'Explore Thailand with FlyMo Tours - Your trusted travel partner. Discover affordable Bangkok, Pattaya, Phuket tour packages with all-inclusive services.',
+  keywords = 'Thailand tours, Bangkok packages, Pattaya tours, Phuket holidays, Thailand travel, tour packages, FlyMo Tours, SK Ventures',
+  image = 'https://res.cloudinary.com/desenbguq/image/upload/v1772171514/hero-1_dohfa9.jpg',
+  url = 'https://flymotours.skventures.lk',
   type = 'website',
 }) => {
-  const siteName = 'SK Thai Tours';
+  const siteName = 'FlyMo Tours by SK Ventures';
   const twitterHandle = '@sktours';
 
   return (
@@ -51,7 +51,7 @@ const SEO = ({
       {/* Additional Meta Tags */}
       <meta name="robots" content="index, follow" />
       <meta name="language" content="English" />
-      <meta name="author" content="SK Thai Tours" />
+      <meta name="author" content="FlyMo Tours by SK Ventures" />
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
     </Helmet>
   );

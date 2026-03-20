@@ -134,7 +134,7 @@ const Promotions = () => {
         <ScrollReveal animation="fade-up">
           <p className="promotions__subtitle">Special Offers</p>
           <h2 className="promotions__title">
-            SK Thai Tours <span>Promotions</span>
+            FlyMo Tours <span>Promotions</span>
           </h2>
           <p className="promotions__description">
             Don&apos;t miss out on our exclusive travel deals! Limited-time offers on

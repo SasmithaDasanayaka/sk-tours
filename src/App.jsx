@@ -25,7 +25,7 @@ function HomePage() {
       <WebsiteSchema />
       <Hero />
       <Destinations />
-      <Promotions />
+      {/* <Promotions /> */}
       {/* <Videos /> */}
       <Packages />
       <Services />

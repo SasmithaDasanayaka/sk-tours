@@ -11,15 +11,15 @@ export const OrganizationSchema = () => {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'TravelAgency',
-    name: 'SK Thai Tours',
+    name: 'FlyMo Tours by SK Ventures',
     description: 'Thailand tour packages and travel services',
-    url: 'https://thaitours.skventures.lk',
-    logo: 'https://thaitours.skventures.lk/logo.png',
+    url: 'https://flymotours.skventures.lk',
+    logo: 'https://flymotours.skventures.lk/logo.png',
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'Customer Service',
       telephone: '+94-77-545-8878',
-      email: 'thaitours@skventures.lk',
+      email: 'flymotours@skventures.lk',
       availableLanguage: ['English'],
     },
     areaServed: {
@@ -28,7 +28,7 @@ export const OrganizationSchema = () => {
     },
     sameAs: [
       // Add your social media links here
-      'https://web.facebook.com/SkThaiTours/',
+      'https://web.facebook.com/flymotours/',
       'https://wa.me/94775458878',
     ],
   };
@@ -119,13 +119,13 @@ export const WebsiteSchema = () => {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'SK Thai Tours',
-    url: 'https://thaitours.skventures.lk',
+    name: 'FlyMo Tours by SK Ventures',
+    url: 'https://flymotours.skventures.lk',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: 'https://thaitours.skventures.lk?q={search_term_string}',
+        urlTemplate: 'https://flymotours.skventures.lk?q={search_term_string}',
       },
       'query-input': 'required name=search_term_string',
     },

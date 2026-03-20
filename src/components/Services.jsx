@@ -7,8 +7,8 @@ const Services = () => {
       icon: "🏢",
       title: "Bangkok Branch 24/7",
       description:
-        "Our Bangkok office operates round the clock to serve you anytime. Visit us for instant bookings, travel assistance, and personalized service whenever you need.",
-      tag: "24 Hours Srervice",
+        "Our Bangkok office operates round the clock to serve you anytime. Visit us for instant bookings, travel assistance, and personalized service whenever you need in Thailand.",
+      tag: "24 Hours Service",
     },
     {
       icon: "✈️",
@@ -48,7 +48,7 @@ const Services = () => {
     },
     {
       icon: "🚗",
-      title: "Comfortable Vehicles",
+      title: "Private Comfortable Vehicles",
       description:
         "Modern, air-conditioned vehicles for all your local transfers. Travel in comfort and style during your Thailand adventure with our premium fleet.",
     },

@@ -1,6 +1,6 @@
-# SK Thai Tours — Travel Website
+# FlyMo Tours by SK Ventures — Travel Website
 
-A modern, responsive travel website for **SK Thai Tours**, built with React and Vite. Showcases tour destinations across Thailand with interactive brochures, image carousels, and WhatsApp integration.
+A modern, responsive travel website for **FlyMo Tours by SK Ventures**, built with React and Vite. Showcases tour destinations across Thailand with interactive brochures, image carousels, and WhatsApp integration.
 
 ## Features
 

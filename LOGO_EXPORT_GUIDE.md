@@ -1,4 +1,4 @@
-# SK Thai Tours Logo Export Guide
+# FlyMo Tours by SK Ventures Logo Export Guide
 
 ## 🚀 Quick Start - Export in One Click!
 
