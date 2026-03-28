@@ -52,9 +52,9 @@ const Footer = () => {
             <a href="https://web.facebook.com/flymotours/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
               <FaFacebookF />
             </a>
-            {/* <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <a href="https://www.instagram.com/flymo_tours/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <FaInstagram />
-            </a> */}
+            </a>
           </div>
         </div>
         </ScrollReveal>

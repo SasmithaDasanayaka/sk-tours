@@ -27,7 +27,7 @@ const PackageCard = ({ pkg }) => {
               return (
                 <li key={idx} className={isSubPoint ? "card__list-subitem" : ""}>
                   {!isSubPoint && <FaCheck className="card__check" />}
-                  <span>{item}</span>
+                  <span dangerouslySetInnerHTML={{ __html: item }} />
                 </li>
               );
             })}

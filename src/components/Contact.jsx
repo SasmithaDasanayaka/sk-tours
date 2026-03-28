@@ -6,6 +6,7 @@ import {
   FaWhatsapp,
   FaPaperPlane,
   FaFacebookF,
+  FaInstagram,
 } from "react-icons/fa";
 import ScrollReveal from "./ScrollReveal";
 import "./Contact.css";
@@ -105,6 +106,21 @@ const Contact = () => {
               <div>
                 <span className="contact__label">Facebook</span>
                 <span className="contact__value">FlyMo Tours</span>
+              </div>
+            </a>
+
+            <a
+              href="https://www.instagram.com/flymo_tours/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact__item"
+            >
+              <div className="contact__icon contact__icon--instagram">
+                <FaInstagram />
+              </div>
+              <div>
+                <span className="contact__label">Instagram</span>
+                <span className="contact__value">@flymo_tours</span>
               </div>
             </a>
           </div>

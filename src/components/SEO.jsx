@@ -14,7 +14,7 @@ const SEO = ({
   title = 'FlyMo Tours by SK Ventures | Thailand Tour Packages',
   description = 'Explore Thailand with FlyMo Tours - Your trusted travel partner. Discover affordable Bangkok, Pattaya, Phuket tour packages with all-inclusive services.',
   keywords = 'Thailand tours, Bangkok packages, Pattaya tours, Phuket holidays, Thailand travel, tour packages, FlyMo Tours, SK Ventures',
-  image = 'https://res.cloudinary.com/desenbguq/image/upload/v1772171514/hero-1_dohfa9.jpg',
+  image = 'https://res.cloudinary.com/desenbguq/image/upload/w_1200,h_630,c_fill,q_auto,f_jpg/v1774523436/Preview_xp7lof.jpg',
   url = 'https://flymotours.skventures.lk',
   type = 'website',
 }) => {
@@ -36,6 +36,11 @@ const SEO = ({
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
+      <meta property="og:image:secure_url" content={image} />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      <meta property="og:image:type" content="image/jpeg" />
+      <meta property="og:image:alt" content={title} />
       <meta property="og:site_name" content={siteName} />
       <meta property="og:locale" content="en_US" />
 

@@ -29,6 +29,7 @@ export const OrganizationSchema = () => {
     sameAs: [
       // Add your social media links here
       'https://web.facebook.com/flymotours/',
+      'https://www.instagram.com/flymo_tours/',
       'https://wa.me/94775458878',
     ],
   };

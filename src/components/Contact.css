@@ -84,6 +84,11 @@
   color: #1877f2;
 }
 
+.contact__icon--instagram {
+  background: linear-gradient(135deg, #fed7e2, #fbb6ce);
+  color: #e1306c;
+}
+
 .contact__label {
   display: block;
   font-size: 0.8rem;
